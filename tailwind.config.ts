@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        darkui: "rgba(65, 68, 74, 1)",
+        lightui: "rgba(199, 208, 226, 1)",
+        wppdark: "rgba(32, 33, 36, 1)"
+      },
     },
   },
   plugins: [],
