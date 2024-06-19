@@ -8,7 +8,8 @@ import RNAV from "./components/rightNav";
 import LNAV from "./components/lefNav";
 import MONITOR from "./components/monitor";
 
-const host = "192.168.8.130"
+
+const host = window.location.href.replace("http://", "").replace(":3000/", "")
 
 const messages = [
   {
