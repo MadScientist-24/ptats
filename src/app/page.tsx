@@ -84,7 +84,7 @@ export default function Home() {
       </>
     ): (
       <>
-      <div className="flex flex-col h-screen font-bold ">
+      <div className="flex flex-col h-screen font-bold text-white">
         <NAV data={sdata}/>
         <div className="flex flex-row bg-slate-200 h-full w-full justify-between ">
           
